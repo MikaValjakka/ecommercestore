@@ -72,4 +72,5 @@ Mika Valjakka – intohimoinen fullstack-opiskelija Suomesta
 Arch Linux + Hyprland -käyttäjä, tekoälyn ystävä 🚀
 
 Made with ❤️, kahvia ja yötä vasten Suomessa.
-..I use Arch, BTW...
+
+# ..I use Arch, BTW...
