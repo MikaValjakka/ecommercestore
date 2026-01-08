@@ -7,7 +7,7 @@ Sisältää käyttäjäautentikaation, admin dashboardin, Stripe-maksut (testiti
 
 ## 📸 Screenshots
 
-![Etusivu & Kategoriat](/screenshots/categories.jpg)
+![Etusivu & Kategoriat](https://github.com/MikaValjakka/ecommercestore/blob/9764e854e747e8bb7ca3f9e7d939db162c18c5f2/Screenshots/categories.jpg)
 ![Ostoskori](/screenshots/cart.jpg)
 ![Maksusivu (Stripe test mode)](/screenshots/checkout.jpg)
 ![Onnistunut ostos + konfetti](/screenshots/success.jpg)
