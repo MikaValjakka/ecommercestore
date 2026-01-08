@@ -7,14 +7,14 @@ Sisältää käyttäjäautentikaation, admin dashboardin, Stripe-maksut (testiti
 
 ## 📸 Screenshots
 
-![Etusivu & Kategoriat](screenshots/categories.jpg)
-![Ostoskori](screenshots/cart.jpg)
-![Maksusivu (Stripe test mode)](screenshots/checkout.jpg)
-![Onnistunut ostos + konfetti](screenshots/success.jpg)
-![Kirjautumissivu](screenshots/login.jpg)
-![Admin Dashboard - Analytics](screenshots/admin-analytics.jpg)
-![Admin - Tuotelista](screenshots/admin-products.jpg)
-![Admin - Luo uusi tuote](screenshots/admin-create-product.jpg)
+![Etusivu & Kategoriat](/screenshots/categories.jpg)
+![Ostoskori](/screenshots/cart.jpg)
+![Maksusivu (Stripe test mode)](/screenshots/checkout.jpg)
+![Onnistunut ostos + konfetti](/screenshots/success.jpg)
+![Kirjautumissivu](/screenshots/login.jpg)
+![Admin Dashboard - Analytics](/screenshots/admin-analytics.jpg)
+![Admin - Tuotelista](/screenshots/admin-products.jpg)
+![Admin - Luo uusi tuote](/screenshots/admin-create-product.jpg)
 
 ## 🚀 Ominaisuudet
 
