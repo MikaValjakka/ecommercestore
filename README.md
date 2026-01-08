@@ -1,5 +1,7 @@
 # Full-Stack MERN E-Commerce Store 🛒
 
+**🚀 Live Demo**: [https://ecommercestore-gy86.onrender.com](https://ecommercestore-gy86.onrender.com)
+
 Moderni täyden pinon(full stack) verkkokauppa MERN-stackillä (MongoDB, Express, React, Node.js).  
 Sisältää käyttäjäautentikaation, admin dashboardin, Stripe-maksut (testitilassa), Redis-istunnonhallinnan ja Cloudinary-kuvienhallinnan.
 
