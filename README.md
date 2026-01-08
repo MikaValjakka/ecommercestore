@@ -8,13 +8,13 @@ Sisältää käyttäjäautentikaation, admin dashboardin, Stripe-maksut (testiti
 ## 📸 Screenshots
 
 ![Etusivu & Kategoriat](https://github.com/MikaValjakka/ecommercestore/blob/9764e854e747e8bb7ca3f9e7d939db162c18c5f2/Screenshots/categories.jpg)
-![Ostoskori](/screenshots/cart.jpg)
-![Maksusivu (Stripe test mode)](/screenshots/checkout.jpg)
-![Onnistunut ostos + konfetti](/screenshots/success.jpg)
-![Kirjautumissivu](/screenshots/login.jpg)
-![Admin Dashboard - Analytics](/screenshots/admin-analytics.jpg)
-![Admin - Tuotelista](/screenshots/admin-products.jpg)
-![Admin - Luo uusi tuote](/screenshots/admin-create-product.jpg)
+![Ostoskori](https://github.com/MikaValjakka/ecommercestore/blob/9764e854e747e8bb7ca3f9e7d939db162c18c5f2/Screenshots/cart.jpg)
+![Maksusivu (Stripe test mode)](https://github.com/MikaValjakka/ecommercestore/blob/9764e854e747e8bb7ca3f9e7d939db162c18c5f2/Screenshots/checkout.jpg)
+![Onnistunut ostos + konfetti](https://github.com/MikaValjakka/ecommercestore/blob/9764e854e747e8bb7ca3f9e7d939db162c18c5f2/Screenshots/success.jpg)
+![Kirjautumissivu](https://github.com/MikaValjakka/ecommercestore/blob/9764e854e747e8bb7ca3f9e7d939db162c18c5f2/Screenshots/login.jpg)
+![Admin Dashboard - Analytics](https://github.com/MikaValjakka/ecommercestore/blob/9764e854e747e8bb7ca3f9e7d939db162c18c5f2/Screenshots/admin-analytics.jpg)
+![Admin - Tuotelista](https://github.com/MikaValjakka/ecommercestore/blob/9764e854e747e8bb7ca3f9e7d939db162c18c5f2/Screenshots/admin-products.jpg)
+![Admin - Luo uusi tuote](https://github.com/MikaValjakka/ecommercestore/blob/9764e854e747e8bb7ca3f9e7d939db162c18c5f2/Screenshots/admin-create-product.jpg)
 
 ## 🚀 Ominaisuudet
 
