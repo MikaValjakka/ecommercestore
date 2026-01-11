@@ -10,6 +10,7 @@ import path from "path";
 import couponRoutes from "./routes/coupon.route.js";
 import paymentRoutes from "./routes/payment.route.js";
 import AnalyticsRoutes from "./routes/analytics.route.js";
+import aiRoutes from "./routes/ai.routes.js";
 
 // Read the content of .env file
 dotenv.config();
@@ -30,6 +31,7 @@ app.use("/api/cart", cartRoutes);
 app.use("/api/coupons", couponRoutes);
 app.use("/api/payments", paymentRoutes);
 app.use("/api/analytics", AnalyticsRoutes);
+app.use("/api/ai", aiRoutes);
 app.get("/api/test", (req, res) => res.send("Proxy works!"));
 
 if (process.env.NODE_ENV === "production") {

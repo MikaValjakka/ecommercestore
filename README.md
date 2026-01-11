@@ -38,6 +38,29 @@ Sisältää käyttäjäautentikaation, admin dashboardin, Stripe-maksut (testiti
 [![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)](https://stripe.com/)
 [![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)](https://cloudinary.com/)
 
+### Redis
+
+Redis toimii tässä projektissa erillisenä server-side in-memory -palvelimena, jota käytetään suorituskykykriittisen ja väliaikaisen datan käsittelyyn.
+
+Redis on käytössä:
+
+- **Refresh tokenien tallennuksessa** – refresh tokenit säilytetään turvallisesti palvelinpuolella ja niille asetetaan automaattinen vanheneminen (TTL).
+- **Featured products -datan välimuistina** – usein haettavat ja harvoin muuttuvat tuotteet haetaan Redisistä, mikä nopeuttaa API-vastauksia ja vähentää tietokannan kuormitusta.
+
+Redis on hostattu erillisenä palveluna (Upstash) ja se säilyttää datan RAM-muistissa, mikä tekee siitä huomattavasti nopeamman kuin ensisijaisen tietokannan käytön näissä käyttötapauksissa.
+
+### Cloudinary
+
+Cloudinary on pilvipalvelu tuotetiedostojen, kuten kuvien, tallentamiseen, optimointiin ja toimitukseen.
+
+Tässä projektissa Cloudinarya käytetään:
+
+- **Kuvien tallennukseen pilveen** – backend ei säilytä kuvia omalla palvelimella.
+- **Kuvien optimointiin ja muunnoksiin** – automaattinen koon muuttaminen, pakkaus ja formaattimuunnokset.
+- **Nopeaan jakeluun CDN:n kautta** – kuvat toimitetaan käyttäjälle nopeasti riippumatta sijainnista.
+
+Cloudinaryn avulla backend pysyy kevyenä ja skaalautuvana, ja kuvat voidaan käsitellä ja näyttää tehokkaasti kaikilla laitteilla.
+
 ## 🧠 AI-valmius
 
 Olen valmis ottamaan tekoälytyökalut osaksi arkeani – työstän parhaillaan pientä AI-ominaisuutta (esim. tuotesuosittelut OpenAI API:lla) tähän projektiin.
